@@ -2,7 +2,12 @@
     "name": "game",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.2",
+        "arcade-minimap": "github:microsoft/arcade-minimap#v0.6.1",
+        "arcade-mini-menu": "github:riknoll/arcade-mini-menu#v0.1.0",
+        "controller": "*",
+        "browser-events": "*"
     },
     "files": [
         "main.blocks",
@@ -16,7 +21,7 @@
         "test.ts"
     ],
     "targetVersions": {
-        "target": "4.0.5",
+        "target": "4.0.10",
         "targetId": "arcade"
     },
     "supportedTargets": [
